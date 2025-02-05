@@ -3,7 +3,7 @@ import Task from './Task'
 
 const DashBoard = () => {
   return (
-    <div>
+    <div className='w-full border-blue-900 border-2'>
     <Task/>
     </div>
   )
