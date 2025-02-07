@@ -2,7 +2,7 @@ import React from 'react'
 
 const SiderBar = () => {
   return (
-    <div className='fixed w-[200px] flex flex-col h-full gap-3 border-red-700 border-2 bg-white'>
+    <div className='fixed w-[200px] flex text-center items-center flex-col h-full gap-5 bg-blue-200   '>
         <ul>
           <p>Home</p>
           <p>Teams</p>
