@@ -10,7 +10,10 @@ const Navbar = () => {
         <li><a href="#">Task Management</a></li>
         <li><a href="#">Team Management</a></li>
       </ul>
-      <div>Profile</div>
+      <div className='flex flex-col-reverse text-center items-center'>Profile
+      <div className='w-[30px] h-[30px] bg-white rounded-full'></div>
+      </div>
+    
     </div>
   )
 }
