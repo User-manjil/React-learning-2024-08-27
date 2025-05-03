@@ -1,0 +1,2 @@
+This is written in Javascript program not text editor. This is the sample file which we are going to read using node js. 
+ Date created Mon Mar 24 2025 21:52:42 GMT+0545 (Nepal Time)

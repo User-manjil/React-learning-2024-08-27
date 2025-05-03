@@ -4,11 +4,7 @@ const SiderBar = () => {
   return (
     <div className='fixed w-[200px] flex text-center items-center flex-col h-full gap-5 bg-blue-200   '>
         <ul>
-          <p>Home</p>
-          <p>Teams</p>
-          <p>Assignment</p>
-          <p></p>
-          <p></p>
+        <a className=' hover:text-black hover:bg-gray-50  block  px-20' href="Home"> Hello        </a>
         </ul>
       
     </div>
