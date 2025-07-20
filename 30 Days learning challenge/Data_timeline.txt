@@ -1,0 +1,8 @@
+
+
+Day 1           --- continue from -- https://www.w3schools.com/js/js_datatypes.asp
+Day 2           --- Adding a Property to a Constructor
+                    https://www.w3schools.com/js/js_object_constructors.asp
+                    https://www.w3schools.com/js/js_strings.asp
+
+Day 4           https://www.w3schools.com/js/js_number_properties.asp
