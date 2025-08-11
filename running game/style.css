@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "outfit";
+}
+.game_container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.title_game h1{
+    text-decoration: underline;
+    padding: 20px;
+}
+.game_box{
+    width: 80%;
+    height: 600px;
+    background: url(./assets/background.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+}
+.runner{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    bottom: 110px;
+    left: 100px;
+    position: absolute;
+    transition: 0.5s ease;
+}
+.runner img{
+    width: 100%;
+}
+.score_board{
+    position: absolute;
+    left:10px;
+    top: 10px;
+    font-weight: 900;
+}
+.jump_button{
+    width: 400px;
+    height: 100px;
+    padding:  20px;
+    position: absolute;
+    bottom: 100px;
+    left: 40%;
+}
+.jump_button button{
+    width: 100px;
+    height: 50px;
+    background:linear-gradient(red,orange,white) ;
+    transition: .9s ease;
+    border: 2px solid white ;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.jump_button button:hover{
+    background:linear-gradient(red,orange) ;
+}
+.after_jump{
+    bottom: 240px;
+}
